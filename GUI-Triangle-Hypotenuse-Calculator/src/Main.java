@@ -7,6 +7,7 @@ public class Main {
 		
 		double x, y, z;
 		Scanner scanner = new Scanner(System.in);
+		
 		try {
 			x = Double.parseDouble(JOptionPane.showInputDialog("Enter triangle side x"));
 			y = Double.parseDouble(JOptionPane.showInputDialog("Enter triangle side y"));
